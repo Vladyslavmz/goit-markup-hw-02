@@ -1,0 +1,147 @@
+:root {
+  --primary-text-color: #212121;
+  --title-text-kolor: #757575;
+  --accent-color: #2196f3;
+  --priamary-bg-color: #e5e5e5;
+  --title-bg-color: #2f303a;
+  --additional-text-color: #000000;
+  --baton-text-color: #ffffff;
+  --title-font: "Raleway", sans-serif;
+}
+/* web+силки при фокусі                        #2196F3 */
+/* основний колір                              #212121 */
+/* додатковий колір                            #757575 */
+/* колір головного заголовка+studio+адрес      #FFFFFF */
+/* Колір контактів            rgba(255, 255, 255, 0.6) */
+/* первиний колір фону                         #E5E5E5 */
+/* вторинний колір фону                        #2F303A */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  color: var(--title-text-kolor);
+  /* тимчасовий */
+  background-color: lightcoral;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+.link-focus:hover,
+.link-focus:focus {
+  color: var(--accent-color);
+}
+.list {
+  list-style: none;
+}
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: var(--baton-text-color);
+}
+/* шапка */
+.link-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+}
+/* логотип */
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  color: var(--accent-color);
+}
+.logo-header-studio {
+  color: var(--additional-text-color);
+}
+.logo-footer-studio {
+  color: var(--baton-text-color);
+}
+/* заголовок першого рівня */
+.page-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--baton-text-color);
+}
+/* секція особливості */
+.title-features {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+/* Заголовок 2рівня */
+.subject {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+/* наша команда */
+.item {
+  text-align: center;
+}
+.title-team {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--primary-text-color);
+}
+.item-team > p {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--title-text-kolor);
+}
+/* Проекти */
+.title-projects {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color);
+}
+.itim-projects > p {
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--title-text-kolor);
+}
+/* підвал */
+.address {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--baton-text-color);
+}
