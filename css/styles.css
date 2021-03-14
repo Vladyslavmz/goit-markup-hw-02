@@ -22,8 +22,6 @@ body {
   letter-spacing: 0.03em;
   font-weight: 400;
   color: var(--title-text-kolor);
-  /* тимчасовий */
-  background-color: lightcoral;
 }
 .link {
   text-decoration: none;
@@ -51,17 +49,25 @@ body {
   font-size: 16px;
   line-height: 1.62;
   text-align: center;
+  background: #F5F4FA;
   color: var(--primary-text-color);
+  cursor: pointer;
 }
+.button:focus,
+.button:hover {
+  color: var(--baton-text-color);
+  background-color: var(--accent-color);
+    
+  }  
 .btn {
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
-  display: flex;
-  text-align: center;
-  align-items: center;
   letter-spacing: 0.06em;
+  background-color: var(--accent-color);
   color: var(--baton-text-color);
+  cursor: pointer;
+  border-radius: 4px;
 }
 /* шапка */
 .link-text {
@@ -69,7 +75,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--primary-text-color);
+  color: var(--additional-text-color);
 }
 /* логотип */
 .logo {
@@ -85,7 +91,12 @@ body {
 .logo-footer-studio {
   color: var(--baton-text-color);
 }
-/* заголовок першого рівня */
+/* герой */
+.hero {
+  background-color: var(--title-bg-color);
+  text-align: center;
+}
+
 .page-title {
   font-weight: 900;
   font-size: 44px;
@@ -112,7 +123,7 @@ body {
   color: var(--primary-text-color);
 }
 /* наша команда */
-.item {
+.item-team {
   text-align: center;
 }
 .title-team {
@@ -134,14 +145,22 @@ body {
   letter-spacing: 0.06em;
   color: var(--primary-text-color);
 }
+.itim-projects {
+  text-align: center;
+}
 .itim-projects > p {
   font-size: 16px;
   line-height: 1.87;
   color: var(--title-text-kolor);
 }
 /* підвал */
+.footer {
+  background-color: var(--title-bg-color);
+}
 .address {
   font-size: 14px;
   line-height: 1.71;
+  text-transform: none;
   color: var(--baton-text-color);
+  font-style: normal;
 }
